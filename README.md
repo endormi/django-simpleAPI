@@ -1,0 +1,3 @@
+# Django-SimpleAPI
+
+Simple API
