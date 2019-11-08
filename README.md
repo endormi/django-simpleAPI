@@ -58,8 +58,6 @@ Go to this `URL`:
 http://127.0.0.1:8000/movies/
 ```
 
-There you will see a table with empty inputs where you can add data.
-
 Example of GET `JSON`:
 
 ```sh
@@ -92,7 +90,55 @@ HTTP/1.0 200 OK
 Date: Mon, 25 Feb 2019 ...
 Server: WSGIServer/0.2 CPython/3.7.2
 Content-Type: application/JSON
-etc.
+
+[
+    {
+        "id": 1,
+        "name": "The Shining",
+        "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+        "category": "Drama, Horror",
+        "director": "Stanley Kubrick",
+        "based_on": "Stephen King's novel",
+        "main_actor": "Jack Nicholson",
+        "release_date": "1980-06-13T00:00:00Z"
+    }
+]
 ```
 
 > Also you should see details for the movie objects
+
+It is similar with HTTPIE
+
+#### Using `HTTPIE`
+
+Install `HTTPIE`:
+
+```sh
+pip install httpie
+```
+
+Get the list of movies:
+
+```sh
+http http://127.0.0.1:8000/movies/
+```
+
+Example response:
+
+```sh
+HTTP/1.1 200 OK
+...
+[
+    {
+        "id": 1,
+        "name": "The Shining",
+        "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+        "category": "Drama, Horror",
+        "director": "Stanley Kubrick",
+        "based_on": "Stephen King's novel",
+        "main_actor": "Jack Nicholson",
+        "release_date": "1980-06-13T00:00:00Z"
+    }
+]
+```
+
