@@ -32,7 +32,7 @@ By ID:
 http://127.0.0.1:8000/movies/1
 ```
 
-### Running locally and adding movies
+### Running locally and getting movies
 
 Install requirements:
 
