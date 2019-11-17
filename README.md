@@ -34,6 +34,12 @@ http://127.0.0.1:8000/movies/1
 
 ### Running locally and getting movies
 
+Clone:
+
+```sh
+HTTPS: https://github.com/endormi/django-simpleAPI.git or SSH: git@github.com:endormi/django-simpleAPI.git
+```
+
 Install requirements:
 
 ```sh
