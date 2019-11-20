@@ -1,38 +1,6 @@
 # Django-SimpleAPI [![Build Status](https://travis-ci.org/endormi/django-simpleAPI.svg?branch=master)](https://travis-ci.org/endormi/django-simpleAPI) [![Django Version](https://img.shields.io/badge/django-2.1.9-brightgreen.svg?)](https://www.djangoproject.com/download/)  
 
-### Testing with Postman:
-
-Install requirements:
-
-```sh
-pip install -r requirements.txt
-```
-
-Migrate:
-
-```sh
-py manage.py migrate
-```
-
-Runserver:
-
-```sh
-py manage.py runserver
-```
-
-Get all:
-
-```
-http://127.0.0.1:8000/movies/
-```
-
-By ID:
-
-```
-http://127.0.0.1:8000/movies/1
-```
-
-### Running locally and getting movies
+## Running server
 
 Clone:
 
@@ -58,6 +26,26 @@ Runserver:
 py manage.py runserver
 ```
 
+### Using Postman
+
+> Follow the running server example to get the server up and running.
+
+Get all:
+
+```
+http://127.0.0.1:8000/movies/
+```
+
+By ID:
+
+```
+http://127.0.0.1:8000/movies/1
+```
+
+### Using website
+
+> Follow the running server example to get the server up and running.
+
 Go to this `URL`:
 
 ```sh
@@ -82,6 +70,8 @@ Example of GET `JSON`:
 ```
 
 #### Using [Curl](https://curl.haxx.se/download.html)
+
+> Follow the running server example to get the server up and running.
 
 Example response for the HTTP:
 
@@ -116,6 +106,8 @@ Content-Type: application/JSON
 It is similar with HTTPIE
 
 #### Using `HTTPIE`
+
+> Follow the running server example to get the server up and running.
 
 Install `HTTPIE`:
 
