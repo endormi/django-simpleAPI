@@ -1,4 +1,4 @@
-# Django-SimpleAPI [![Build Status](https://travis-ci.org/endormi/django-simpleAPI.svg?branch=master)](https://travis-ci.org/endormi/django-simpleAPI) [![Django Version](https://img.shields.io/badge/django-2.1.9-brightgreen.svg?)](https://www.djangoproject.com/download/)  
+# Django-SimpleAPI [![Django Version](https://img.shields.io/badge/django-2.1.9-brightgreen.svg?)](https://www.djangoproject.com/download/)  
 
 ## Running server
 
@@ -139,4 +139,3 @@ HTTP/1.1 200 OK
     }
 ]
 ```
-
