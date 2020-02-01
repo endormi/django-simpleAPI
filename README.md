@@ -26,6 +26,12 @@ Runserver:
 py manage.py runserver
 ```
 
+Run tests:
+
+```sh
+py manage.py test api
+```
+
 ### Using Postman
 
 > Follow the running server example to get the server up and running.
