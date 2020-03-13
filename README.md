@@ -64,13 +64,12 @@ Example of GET `JSON`:
 [
     {
         "id": 1,
-        "name": "The Shining",
-        "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
-        "category": "Drama, Horror",
-        "director": "Stanley Kubrick",
-        "based_on": "Stephen King's novel",
-        "main_actor": "Jack Nicholson",
-        "release_date": "1980-06-13T00:00:00Z"
+        "name": "The Matrix",
+        "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+        "category": "Action, Sci-Fi",
+        "director": "Lana Wachowski, Lilly Wachowski (as The Wachowski Brothers)",
+        "main_actor": "Keanu Reeves",
+        "release_date": "1999-03-31T00:00:00Z"
     }
 ]
 ```
@@ -96,13 +95,12 @@ Content-Type: application/JSON
 [
     {
         "id": 1,
-        "name": "The Shining",
-        "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
-        "category": "Drama, Horror",
-        "director": "Stanley Kubrick",
-        "based_on": "Stephen King's novel",
-        "main_actor": "Jack Nicholson",
-        "release_date": "1980-06-13T00:00:00Z"
+        "name": "The Matrix",
+        "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+        "category": "Action, Sci-Fi",
+        "director": "Lana Wachowski, Lilly Wachowski (as The Wachowski Brothers)",
+        "main_actor": "Keanu Reeves",
+        "release_date": "1999-03-31T00:00:00Z"
     }
 ]
 ```
@@ -135,13 +133,12 @@ HTTP/1.1 200 OK
 [
     {
         "id": 1,
-        "name": "The Shining",
-        "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
-        "category": "Drama, Horror",
-        "director": "Stanley Kubrick",
-        "based_on": "Stephen King's novel",
-        "main_actor": "Jack Nicholson",
-        "release_date": "1980-06-13T00:00:00Z"
+        "name": "The Matrix",
+        "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+        "category": "Action, Sci-Fi",
+        "director": "Lana Wachowski, Lilly Wachowski (as The Wachowski Brothers)",
+        "main_actor": "Keanu Reeves",
+        "release_date": "1999-03-31T00:00:00Z"
     }
 ]
 ```
